@@ -30,9 +30,9 @@ jobs:
       security-events: write
 
     strategy:
-      fail-fast: false
+      fail-fast: false:
      
-       :
+       
         languages: ${{ matrix.language }}
 
         
